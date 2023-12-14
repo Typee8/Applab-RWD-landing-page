@@ -6,6 +6,7 @@
   <title>POJECT - s1e03</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/global.css">
   <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
@@ -13,12 +14,11 @@
 
   <header class="menu">
 
-    <h1 class="logo"><a href="" class="link"><img src="./images/logo.png" alt="logo" class="logo__item"></a></h1>
+    <h1 class="logo"><a href="#" class="link"><img src="./images/logo.png" alt="logo" class="logo__item"></a></h1>
+    <input class="hamburger__input" id="hamburger__input" type="checkbox">
+    <label class="hamburger" for="hamburger__input"><img src="./images/hamburger.svg" alt="hamburger" class="hamburger__picture"></label>
 
     <nav class="navbar">
-
-      <div class="hamburger"><img src="" alt="" class="hamburger__picture"></div>
-
       <ul class="navbar__container">
 
         <li class="navbar__item">
@@ -34,7 +34,7 @@
         </li>
 
         <li class="navbar__item">
-          <a href="" class="navbar__text">Blog</a>
+          <a href="" class="navbar__text navbar__arrow">Blog</a>
           <ul class="navbar__sub-container">
             <li class="navbar__sub-item"><a href="" class="navbar__text">Blog</a></li>
             <li class="navbar__sub-item"><a href="" class="navbar__text">Single-blog</a></li>
@@ -42,7 +42,7 @@
         </li>
 
         <li class="navbar__item">
-          <a href="" class="navbar__text">Pages</a>
+          <a href="" class="navbar__text navbar__arrow">Pages</a>
           <ul class="navbar__sub-container">
             <li class="navbar__sub-item"><a href="" class="navbar__text">Elements</a></li>
           </ul>
@@ -53,11 +53,27 @@
         </li>
 
       </ul>
-
-      <button class="toggle toggle--menu">Download</button>
-
     </nav>
+
+    <button class="toggle toggle--menu">Download</button>
+
   </header>
+
+  <section class="wrapper wrapper--primary wrapper--first">
+    
+    <div class="container">
+      <h2 class="header header--alpha">Promote Your App With Applab</h2>
+      <p class="text text--alpha">Get more users to promote your app with this template</p>
+      <a href="" class="link">
+        <button class="toggle toggle--mainpage">Get Start Now</button>
+      </a>
+    </div>
+
+    <div class="container container--picture">
+      <img src="./images/phone.png" alt="app-picture" class="picture picture--mainpage">
+    </div>
+
+  </section>
 
 </body>
 

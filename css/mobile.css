@@ -1,3 +1,88 @@
+/* menu */
+
+.menu {
+  position: fixed;
+  padding: 10px 30px;
+  width: 100vw;
+}
+.logo {
+  display: inline-block;
+}
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 20px;
+}
+.hamburger__picture {
+  width: 20px;
+}
+.hamburger__input:checked + .hamburger > .hamburger__picture {
+  content: url(../images/x-mark.svg);
+}
+.hamburger__input:checked ~ .navbar {
+  display: initial;
+}
+
+/* || navbar */
+
+.navbar {
+  display: none;
+  margin-top: 20px;
+}
+
+.navbar__item,
+.navbar__sub-item {
+  padding: 10px 20px;
+}
+
+.navbar__item:hover {
+  background-color: #4C4C4C;
+}
+
+.navbar__sub-container {
+  display: none;
+  margin: 10px 20px;
+}
+
+.navbar__sub-item:first-child {
+  margin-top: 10px;
+}
+.navbar__sub-item:last-child {
+  margin-bottom: -10px;
+}
+.navbar__sub-item:hover {
+  border-radius: 40px;
+  background-color: #9a9a9a;
+}
+
+.navbar__arrow {
+  position: relative;
+}
+.navbar__arrow::after {
+  position: absolute;
+  top: -2px;
+  margin-left: 10px;
+  content: "^";
+  transform: rotate(180deg);
+}
+
+.navbar__item:hover > .navbar__sub-container {
+  display: initial;
+}
+
+/* || */
+
 .toggle--menu {
   display: none;
+}
+
+/* | */
+
+.wrapper--first {
+  padding-top: 60px;
+}
+
+.container {
+  padding: 20px 10px;
 }

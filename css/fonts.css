@@ -3,6 +3,15 @@
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 
+/* global */
+
 * {
   font-family: Poppins;
+}
+
+/* mobile */
+
+.menu * {
+  color: white;
+  font-size: 16px;
 }
