@@ -14,8 +14,18 @@
   font-family: Poppins;
 }
 
+.menu * {
+  color: white;
+}
+
 .header {
   font-size: 2rem;
+  line-height: 1;
+  color: white;
+}
+
+.text {
+  font-size: 1rem;
   color: white;
 }
 
@@ -25,14 +35,15 @@
   font-weight: 600;
 }
 
-.text {
-  font-size: 1rem;
-  color: white;
-}
-
-/* mobile */
-
-.menu * {
-  color: white;
-  font-size: 16px;
+/* tablet */
+@media (min-width: 740px) {
+  .header {
+    font-size: 2.5rem;
+  }
+  .text {
+    font-size: 1.25rem;
+  }
+  .toggle {
+    font-size: 1.375rem;
+  }
 }
