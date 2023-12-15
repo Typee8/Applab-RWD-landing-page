@@ -4,3 +4,12 @@
 .hamburger__input {
   display: none;
 }
+
+.wrapper--first {
+  background-image: url(../images/banner/banner.png);
+  background-repeat: no-repeat;
+}
+
+.container--picture {
+  text-align: center;
+}

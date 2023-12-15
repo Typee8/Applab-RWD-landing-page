@@ -2,11 +2,32 @@
   font-family: "Poppins";
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
 
 /* global */
 
 * {
   font-family: Poppins;
+}
+
+.header {
+  font-size: 2rem;
+  color: white;
+}
+
+.toggle {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 1rem;
+  color: white;
 }
 
 /* mobile */

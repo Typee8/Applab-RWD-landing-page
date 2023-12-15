@@ -81,8 +81,26 @@
 
 .wrapper--first {
   padding-top: 60px;
+  background-position-x: right;
+  background-position-y: 60px;
 }
 
 .container {
-  padding: 20px 10px;
+  padding: 30px 20px;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+.toggle--mainpage {
+  margin: 60px 0;
+}
+
+.toggle {
+  padding: 15px 40px;
+  background-color: #37EBED;
+}
+
+.picture--mainpage {
+  width: 600px;
 }
