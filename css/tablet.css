@@ -1,11 +1,11 @@
 .wrapper {
   display: flex;
   padding: 160px 60px;
-  background-position-x: -240px;
-  background-position-y: -120px;
 }
 .wrapper--first {
   padding-top: 220px;
+  background-position-x: -240px;
+  background-position-y: -120px;
 }
 .container {
   padding: 0;
