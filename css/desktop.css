@@ -27,6 +27,7 @@
 .hamburger {
   display: none;
 }
+
 .toggle--menu {
   display: initial;
   justify-self: right;
@@ -41,7 +42,6 @@
   background-color: initial;
 }
 .navbar__sub-container {
-  display: none;
   position: absolute;
   top: 40px;
   left: 0;
@@ -75,7 +75,7 @@
 }
 
 .wrapper {
-  padding: 160px 40px;
+  padding: 160px 60px;
 }
 @media (min-width: 1650px) {
   .wrapper {
@@ -89,12 +89,13 @@
     min-width: 50vw;
   }
 }
-.wrapper--first {
-  padding-top: 220px;
-}
 
 .container--picture {
   margin-left: 10vw;
+}
+
+.picture--mainpage {
+  width: 600px;
 }
 
 .container--columns {

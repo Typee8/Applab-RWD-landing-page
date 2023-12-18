@@ -48,6 +48,14 @@
   color: #727272;
   font-weight: 300;
 }
+.text--big,
+.rating {
+  font-size: 1.1rem;
+}
+.rating {
+  color: white;
+}
+
 .icon__description {
   font-size: 1.4rem;
   font-weight: 300;
