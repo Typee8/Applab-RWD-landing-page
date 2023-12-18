@@ -14,3 +14,22 @@
 .container--picture {
   text-align: center;
 }
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.icon--primary {
+  background-color: #198EF8;
+}
+.icon--secondary {
+  background-color: #FD945D;
+}
+.icon--tertiary {
+  background-color: #37EF8D;
+}
+.icon__description {
+  display: block;
+}

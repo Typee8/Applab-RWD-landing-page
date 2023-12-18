@@ -85,12 +85,18 @@
     background-size: cover;
     background-position: 0;
   }
+  .picture--download {
+    min-width: 50vw;
+  }
 }
 .wrapper--first {
   padding-top: 220px;
 }
 
 .container--picture {
-    margin-left: 10vw;
+  margin-left: 10vw;
 }
 
+.container--columns {
+  justify-content: space-evenly;
+}
