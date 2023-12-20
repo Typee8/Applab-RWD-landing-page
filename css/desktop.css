@@ -39,8 +39,9 @@
   position: relative;
 }
 .navbar__item:hover {
-  background-color: initial;
+  background-color: transparent;
 }
+
 .navbar__sub-container {
   position: absolute;
   top: 40px;
@@ -70,7 +71,7 @@
   text-wrap: nowrap;
 }
 
-.navbar__item:hover .navbar__text--sub {
+.navbar__text--sub {
   color: black;
 }
 

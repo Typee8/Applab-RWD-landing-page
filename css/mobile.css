@@ -42,6 +42,7 @@
 .navbar__sub-item:last-child {
   margin-bottom: -10px;
 }
+
 .navbar__sub-item:hover {
   border-radius: 40px;
   background-color: #9a9a9a;

@@ -11,13 +11,15 @@
 .navbar__item,
 .navbar__sub-item {
   padding: 10px 20px;
+  cursor: pointer;
+}
+
+.navbar__checkbox {
+  display: none;
 }
 
 .navbar__sub-container {
   display: none;
-}
-.navbar__item:hover>.navbar__sub-container {
-  display: initial;
 }
 
 .navbar__arrow {
