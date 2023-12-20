@@ -61,13 +61,75 @@
   background-position-x: right;
   background-position-y: 60px;
 }
+.wrapper--stores {
+  padding: 120px 0;
+}
 
 .container {
   padding: 30px 25px;
 }
-
-
+.container--plan {
+  padding-bottom: 0;
+  background-color: #F9F9F9;
+}
+.container--stores {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
 
 .icon__description {
   max-width: 230px;
+}
+
+.plan {
+  max-width: 450px;
+  margin: 0 auto;
+  border-bottom: 40px solid #F9F9F9;
+  background-color: white;
+}
+
+.plan__container {
+  padding: 20px;
+}
+.plan__container--basic,
+.plan__container--team,
+.plan__container--business {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.plan__container--basic {
+  background-color: #E9F4FE;
+}
+.plan__container--team {
+  background-color: #FEF4EE;
+}
+.plan__container--business {
+  background-color: #E8FCF1;
+}
+
+.plan__item {
+  padding: 20px 0;
+}
+
+.toggle--plan {
+  margin: 20px 0;
+}
+
+/* wrapper--pre-fotter */
+
+.cell__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #4d4d4d;
+}
+
+.cell__logo-item {
+  height: 20px;
+  width: 20px;
 }

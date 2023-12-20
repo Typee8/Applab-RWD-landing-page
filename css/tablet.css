@@ -19,6 +19,14 @@
   margin-top: 120px;
 }
 
+.container--plan {
+  background-color: transparent;
+}
+
+.container--stores:first-child {
+  text-align: left;
+  margin-bottom: 40px;
+}
 .picture--download {
   min-width: 40vw;
 }
@@ -29,4 +37,42 @@
 
 .icon__description {
   max-width: 250px;
+}
+
+.plan {
+  width: 100%;
+  margin: 0;
+  border: none;
+  box-shadow: 0 0 25px 2px rgb(225, 224, 224);
+  z-index: 0;
+}
+
+.plan--middle {
+  margin-top: -2.1rem;
+  box-shadow: 0 0 25px 2px rgb(225, 224, 224);
+  z-index: 1;
+}
+
+/* wrapper--pre-fotter */
+
+.container--cells {
+  display: grid;
+  grid-template-areas:
+    "A B"
+    "C D";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cell:nth-child(1) {
+  grid-area: A;
+}
+.cell:nth-child(2) {
+  grid-area: B;
+}
+.cell:nth-child(3){
+  grid-area: C;
+}
+.cell:nth-child(4) {
+  grid-area: D;
 }

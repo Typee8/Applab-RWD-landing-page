@@ -3,6 +3,7 @@
   width: 100vw;
   min-height: 60px;
   background-color: #2C2C2C;
+  z-index: 999;
 }
 .hamburger__input {
   display: none;
@@ -45,6 +46,12 @@
   background-position: center;
   background-size: cover;
 }
+.wrapper--stores {
+  background-image: url(../images/banner/product.png);
+}
+.wrapper--pre-footer {
+  background-color: #1F1F1F;
+}
 
 .container--picture {
   margin: auto 0;
@@ -64,12 +71,29 @@
   padding: 15px 40px;
   background-color: #37EBED;
 }
+.toggle:hover {
+  color: #42B3FA;
+  background-color: white;
+}
 .toggle--mainpage {
   margin: 60px 0;
 }
+
 .toggle--download {
   margin-top: 60px;
   background-color: #0181F5;
+}
+.toggle--download {
+  border: 3px solid #42B3FA;
+}
+.toggle--plan {
+  border: 2px solid #42B3FA;
+  color: #42B3FA;
+  background-color: transparent;
+}
+.plan:hover .toggle--plan {
+  background-color: #42B3FA;
+  color: white;
 }
 
 .icon {
@@ -100,4 +124,18 @@
 }
 .rating {
   margin-top: 20px;
+}
+
+/* wrapper--pre-footer */
+.cell {
+  margin: 40px 0;
+}
+
+.cell__item {
+  margin: 20px 0;
+}
+
+.cell__text--bigger {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
