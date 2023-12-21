@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   padding: 20px 30px;
   background-color: transparent;
+  transition: 0.3s ease;
 }
 
 .logo {
@@ -43,6 +44,20 @@
   background-color: transparent;
 }
 
+.navbar__item::after {
+  content: url("../images/navbar-underline.svg");
+  position: absolute;
+  top: -30px;
+  left: 0;
+  z-index: 0;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.navbar__item:hover::after {
+  opacity: 1;
+}
+
 .navbar__sub-container {
   position: absolute;
   top: 40px;
@@ -51,22 +66,24 @@
   min-width: 200px;
   background-color: white;
   border-radius: 10px;
+  z-index: 1;
+  transition: 0.5s ease;
 }
 
 .navbar__sub-item:first-child {
-  border-radius: 20px 20px 0 0;
+  border-radius: 10px 10px 0 0;
   margin: 0;
 }
 .navbar__sub-item:last-child {
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 10px 10px;
   margin: 0;
 }
 .navbar__sub-item:only-child {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .navbar__sub-item:hover {
-  background-color: #F2F4F4;
+  background-color: #e6e5e5;
 }
 .navbar__text {
   text-wrap: nowrap;
@@ -82,6 +99,7 @@
 .wrapper--stores {
   display: flex;
 }
+
 @media (min-width: 1650px) {
   .wrapper {
     justify-content: center;
@@ -94,8 +112,9 @@
     min-width: 50vw;
   }
 }
-
-
+.wrapper--footer {
+  padding: 30px 25px;
+}
 .container--columns {
   justify-content: space-evenly;
 }
@@ -118,6 +137,7 @@
 }
 .picture--app {
   width: 200px;
+  height: 60px;
   max-width: 250px;
 }
 .picture--mainpage {
@@ -126,9 +146,13 @@
 
 /* wrapper--pre-fotter */
 
+.logo__item--pre-footer {
+  width: 140px;
+}
+
 .container--cells {
   grid-template-areas:
-    "A B C D";
-  grid-template-columns: repeat(4, 1fr);
+    "A A A B C D";
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
 }

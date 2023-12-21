@@ -5,6 +5,7 @@
   background-color: #2C2C2C;
   z-index: 999;
 }
+
 .hamburger__input {
   display: none;
 }
@@ -52,6 +53,10 @@
 .wrapper--pre-footer {
   background-color: #1F1F1F;
 }
+.wrapper--footer {
+  text-align: center;
+  background-color: #000000;
+}
 
 .container--picture {
   margin: auto 0;
@@ -70,6 +75,7 @@
   border-radius: 10px;
   padding: 15px 40px;
   background-color: #37EBED;
+  transition: 0.4s ease;
 }
 .toggle:hover {
   color: #42B3FA;
@@ -83,8 +89,9 @@
   margin-top: 60px;
   background-color: #0181F5;
 }
-.toggle--download {
+.toggle--download:hover {
   border: 3px solid #42B3FA;
+  padding: 12px 37px;
 }
 .toggle--plan {
   border: 2px solid #42B3FA;

@@ -65,7 +65,8 @@
   padding: 120px 0;
 }
 
-.container {
+.container,
+.wrapper--footer {
   padding: 30px 25px;
 }
 .container--plan {
@@ -115,6 +116,11 @@
 
 .toggle--plan {
   margin: 20px 0;
+}
+
+.picture--app {
+  height: 45px;
+  width: 150px;
 }
 
 /* wrapper--pre-fotter */
