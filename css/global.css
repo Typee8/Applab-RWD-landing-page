@@ -89,8 +89,7 @@
   background-color: #0181F5;
 }
 .toggle--download:hover {
-  border: 3px solid #42B3FA;
-  padding: 13.5px 38.5px;
+  outline: 3px solid #42B3FA;
 }
 .toggle--plan {
   border: 2px solid #42B3FA;
