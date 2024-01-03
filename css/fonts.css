@@ -3,15 +3,18 @@
   src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
   font-weight: 200;
 }
+
 @font-face {
   font-family: "Poppins";
   src: url(../fonts/Poppins/Poppins-Light.ttf);
   font-weight: 300;
 }
+
 @font-face {
   font-family: "Poppins";
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
+
 @font-face {
   font-family: "Poppins";
   src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
@@ -25,18 +28,18 @@
 }
 
 .menu * {
-  color: white;
+  color: var(--white-a);
 }
 
 .header {
   font-size: 2rem;
   line-height: 1;
   font-weight: 300;
-  color: white;
+  color: var(--white-a);
 }
 
 .header--alpha {
-  color: black
+  color: var(--black-a);
 }
 
 .header--pre-footer {
@@ -46,74 +49,86 @@
 .text {
   font-size: 1rem;
   font-weight: 500;
-  color: white;
+  color: var(--white-a);
 }
+
 .text--alpha {
-  color: #727272;
+  color: var(--black-d);
   font-weight: 300;
 }
+
 .text--big,
 .rating {
   font-size: 1.1rem;
 }
+
 .cell__text {
   font-size: 0.8rem;
 }
+
 .cell__text,
 .cell__text--bigger {
-  color: #C7C7C7;
+  color: var(--white-c);
 }
+
 .cell__text--bigger {
   font-size: 1rem;
   font-weight: 500;
 }
+
 .rating {
-  color: white;
+  color: var(--white-a);
 }
+
 .plan__item {
   font-size: 1rem;
   font-weight: 500;
-  color: #727272;
+  color: var(--black-d);
 }
+
 .plan__name {
   font-size: 1rem;
   font-weight: 600;
-  color: black;
+  color: var(--black-a);
 }
+
 .plan__price {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 .plan__price--basic {
-  color: #0181F5;
+  color: var(--blue-a);
 }
+
 .plan__price--team {
-  color: #FDAE5C;
+  color: var(--peach-a);
 }
+
 .plan__price--business {
-  color: #00D363;
+  color: var(--green-a);
 }
 
 .copyright,
 .link--copyright {
   font-size: 1rem;
   font-weight: 500;
-  color: #C7C7C7;
+  color: var(--white-c);
 }
 
 .link--copyright {
-  color: #5ABCE9
+  color: var(--blue-c);
 }
 
 .icon__description {
   font-size: 1.4rem;
   font-weight: 300;
-  color: black;
+  color: var(--black-a);
 }
 
 .toggle {
   font-size: 1.1rem;
-  color: white;
+  color: var(--white-a);
   font-weight: 600;
 }
 
@@ -130,9 +145,11 @@
   .text {
     font-size: 1.25rem;
   }
+
   .cell__text {
     font-size: 1rem;
   }
+
   .cell__text--bigger {
     font-size: 1.25rem;
   }
@@ -144,6 +161,10 @@
   .toggle:not(.toggle--plan, .toggle--menu) {
     font-size: 1.375rem;
   }
+
+  .rating::before {
+    font-size: 26px;
+  }
 }
 
 /* desktop */
@@ -151,6 +172,7 @@
   .header {
     font-size: 3.2rem;
   }
+
   .header--pre-footer {
     font-size: 2rem;
   }
@@ -158,6 +180,7 @@
   .text {
     font-size: 1.5rem;
   }
+
   .cell__text--bigger {
     font-size: 1.5rem;
   }
@@ -172,6 +195,7 @@
     font-size: 1.67rem;
   }
 }
+
 .toggle--menu {
   font-size: 1rem;
 }

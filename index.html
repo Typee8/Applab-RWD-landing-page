@@ -1,272 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>POJECT - s1e03</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/fonts.css">
-  <link rel="stylesheet" href="./css/global.css">
-  <link rel="stylesheet" href="./css/mobile.css">
-  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 740px)">
-  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1100px)">
-  <script src="./animation.js" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECT - s1e03</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 740px)" />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 1100px)"
+    />
+    <script src="./animation.js" defer></script>
+  </head>
 
-<body>
+  <body>
+    <header class="menu">
+      <h1 class="logo">
+        <img src="./images/logo.png" alt="logo" class="logo__item" />
+      </h1>
+      <input class="hamburger__input" id="hamburger__input" type="checkbox" />
+      <label class="hamburger" for="hamburger__input">
+        <img
+          src="./images/hamburger.svg"
+          alt="hamburger"
+          class="hamburger__picture"
+        />
+      </label>
 
-  <header class="menu">
+      <nav class="navbar">
+        <ul class="navbar__container">
+          <li class="navbar__item">
+            <a href="" class="navbar__text">Home</a>
+          </li>
 
-    <h1 class="logo"><img src="./images/logo.png" alt="logo" class="logo__item"></a></h1>
-    <input class="hamburger__input" id="hamburger__input" type="checkbox">
-    <label class="hamburger" for="hamburger__input"><img src="./images/hamburger.svg" alt="hamburger" class="hamburger__picture"></label>
+          <li class="navbar__item">
+            <a href="" class="navbar__text">Features</a>
+          </li>
 
-    <nav class="navbar">
-      <ul class="navbar__container">
+          <li class="navbar__item">
+            <a href="" class="navbar__text">Pricing</a>
+          </li>
 
-        <li class="navbar__item">
-          <a href="" class="navbar__text">Home</a>
+          <li class="navbar__item">
+            <span class="navbar__text navbar__arrow">Blog</span>
+            <ul class="navbar__sub-container">
+              <li class="navbar__sub-item">
+                <a href="" class="navbar__text navbar__text--sub">Blog</a>
+              </li>
+              <li class="navbar__sub-item">
+                <a href="" class="navbar__text navbar__text--sub">Single-blog</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="navbar__item">
+            <span class="navbar__text navbar__arrow">Pages</span>
+            <ul class="navbar__sub-container">
+              <li class="navbar__sub-item">
+                <a href="" class="navbar__text navbar__text--sub">Elements</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="navbar__item">
+            <a href="" class="navbar__text">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="toggle toggle--menu">Download</button>
+    </header>
+
+    <article class="wrapper wrapper--primary wrapper--first">
+      <div class="container">
+        <h2 class="header">Promote Your App With Applab</h2>
+        <p class="text">Get more users to promote your app with this template</p>
+        <a href="" class="link">
+          <button class="toggle toggle--mainpage">Get Start Now</button>
+        </a>
+      </div>
+
+      <div class="container container--picture">
+        <img
+          src="./images/phone.png"
+          alt="app-picture"
+          class="picture picture--mainpage"
+        />
+      </div>
+    </article>
+
+    <section class="wrapper">
+      <div class="container container--center">
+        <h2 class="header header--alpha">Save your time to using applab</h2>
+      </div>
+
+      <ul class="container container--columns">
+        <li class="container__item">
+          <figure class="icon icon--primary">
+            <img src="./images/icons/1.svg" alt="icon" class="icon__item" />
+          </figure>
+          <span class="icon__description">Manage team in One Place</span>
         </li>
 
-        <li class="navbar__item">
-          <a href="" class="navbar__text">Features</a>
+        <li class="container__item">
+          <figure class="icon icon--secondary">
+            <img src="./images/icons/2.svg" alt="icon" class="icon__item" />
+          </figure>
+          <span class="icon__description">All-powerful Pointing has no control</span>
         </li>
 
-        <li class="navbar__item">
-          <a href="" class="navbar__text">Pricing</a>
+        <li class="container__item">
+          <figure class="icon icon--tertiary">
+            <img src="./images/icons/3.svg" alt="icon" class="icon__item" />
+          </figure>
+          <span class="icon__description">Establish a solid online presence</span>
         </li>
-
-        <li class="navbar__item">
-          <span class="navbar__text navbar__arrow">Blog</span>
-          <ul class="navbar__sub-container">
-            <li class="navbar__sub-item"><a href="" class="navbar__text navbar__text--sub">Blog</a></li>
-            <li class="navbar__sub-item"><a href="" class="navbar__text navbar__text--sub">Single-blog</a></li>
-          </ul>
-        </li>
-
-        <li class="navbar__item">
-          <span class="navbar__text navbar__arrow">Pages</span>
-          <ul class="navbar__sub-container">
-            <li class="navbar__sub-item"><a href="" class="navbar__text navbar__text--sub">Elements</a></li>
-          </ul>
-        </li>
-
-        <li class="navbar__item">
-          <a href="" class="navbar__text">Contact</a>
-        </li>
-
       </ul>
-    </nav>
+    </section>
 
-    <button class="toggle toggle--menu">Download</button>
-
-  </header>
-
-  <section class="wrapper wrapper--primary wrapper--first">
-    
-    <div class="container">
-      <h2 class="header">Promote Your App With Applab</h2>
-      <p class="text">Get more users to promote your app with this template</p>
-      <a href="" class="link">
-        <button class="toggle toggle--mainpage">Get Start Now</button>
-      </a>
-    </div>
-
-    <div class="container container--picture">
-      <img src="./images/phone.png" alt="app-picture" class="picture picture--mainpage">
-    </div>
-
-  </section>
-
-  <section class="wrapper">
-
-    <div class="container container--center">
-      <h2 class="header header--alpha">Save your time to using applab</h2>
-    </div>
-
-    <ul class="container container--columns">
-      <li class="container__item">
-        <figure class="icon icon--primary"><img src="./images/icons/1.svg" alt="icon" class="icon__item"></figure>
-        <span class="icon__description">Manage team in One Place</span>
-      </li>
-
-      <li class="container__item">
-        <figure class="icon icon--secondary"><img src="./images/icons/2.svg" alt="icon" class="icon__item"></figure>
-        <span class="icon__description">All-powerful Pointing has no control</span>
-      </li>
-
-      <li class="container__item">
-        <figure class="icon icon--tertiary"><img src="./images/icons/3.svg" alt="icon" class="icon__item"></figure>
-        <span class="icon__description">Establish a solid online presence</span>
-      </li>
-    </ul>
-
-  </section>
-
-  <section class="wrapper wrapper--primary">
-
-    <div class="container">
-      <h2 class="header header--alpha">Features that give you real feel</h2>
-      <p class="text text--alpha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur culpa, necessitatibus ut error aut atque enim similique rerum inventore ipsa, dolores doloribus aliquam nihil, ullam obcaecati eaque cum maxime quibusdam.</p>
-      <a href="" class="link"><button class="toggle toggle--download">Download Now</button></a>
-    </div>
-
-    <div class="container container--picture">
-      <img src="./images/draw.png" alt="download-visualization" class="picture picture--download">
-    </div>
-
-  </section>
-
-  <section class="wrapper wrapper--primary wrapper--review">
-
-    <div class="container container--center">
-
-      <h2 class="header">Review from our regular users</h2>
-      <p class="text text--big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias rerum inventore reprehenderit deleniti in sint consequatur distinctio vel. Pariatur quam tempora modi qui quod est ullam, odio provident aut.
-      Harum unde ducimus at tempore asperiores rerum temporibus mollitia velit neque sequi animi dolores illum eveniet eligendi recusandae, omnis quaerat dolor ut, laborum sint aperiam. Earum iste sequi dolores quidem.
-      Facere soluta quaerat doloremque quas? Magnam, numquam? Recusandae repellat distinctio alias praesentium nihil accusantium pariatur sint soluta atque quibusdam sed inventore reprehenderit modi omnis quia fuga iusto, voluptatem eius amet.
-      Ex illo iure molestias? Esse enim obcaecati non odio optio voluptatum quod fugiat ut, debitis consequatur odit iure possimus animi iste corporis at laboriosam quis praesentium culpa quam nulla iusto!</p>
-      <div class="rating"> - ROBERT SMILE</div>
-
-    </div>
-
-  </section>
-
-  <section class="wrapper">
-
-    <div class="container container--center">
-
-      <h2 class="header header--alpha">Unlock full Power</h2>
-      <p class="text text--alpha">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim deleniti assumenda mollitia repellat minus unde nesciunt repudiandae reiciendis ullam fugit quos quisquam eligendi omnis esse, sunt consequuntur ab quibusdam soluta.</p>
-    </div>
-
-    <ul class="container container--columns container--plan">
-
-      <li class="plan">
+    <article class="wrapper wrapper--primary">
+      <div class="container">
+        <h2 class="header header--alpha">Features that give you real feel</h2>
+        <p class="text text--alpha">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          culpa, necessitatibus ut error aut atque enim similique rerum
+          inventore ipsa, dolores doloribus aliquam nihil, ullam obcaecati eaque
+          cum maxime quibusdam.
+        </p>
         <a href="" class="link">
-          <div class="plan__container plan__container--basic">
-            <span class="plan__name">Basic</span>
-            <span class="plan__price plan__price--basic">$06</span>
-          </div>
-
-          <ul class="plan__container">
-            <li class="plan__item">One User</li>
-            <li class="plan__item">1000 ui elements</li>
-            <li class="plan__item">Webmail Support</li>
-            <li class="plan__item">100GB Cloud Storage</li>
-            <button class="toggle toggle--plan">Get Now</button>
-          </ul>
+          <button class="toggle toggle--download">Download Now</button>
         </a>
-      </li>
+      </div>
 
-      <li class="plan plan--middle">
+      <div class="container container--picture">
+        <img
+          src="./images/draw.png"
+          alt="download-visualization"
+          class="picture picture--download"
+        />
+      </div>
+    </article>
+
+    <section class="wrapper wrapper--primary wrapper--review">
+      <div class="container container--center">
+        <h2 class="header">Review from our regular users</h2>
+        <p class="text text--big">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus alias rerum inventore reprehenderit deleniti in sint
+          consequatur distinctio vel. Pariatur quam tempora modi qui quod est
+          ullam, odio provident aut. Harum unde ducimus at tempore asperiores
+          rerum temporibus mollitia velit neque sequi animi dolores illum
+          eveniet eligendi recusandae, omnis quaerat dolor ut, laborum sint
+          aperiam. Earum iste sequi dolores quidem. Facere soluta quaerat
+          doloremque quas? Magnam, numquam? Recusandae repellat distinctio alias
+          praesentium nihil accusantium pariatur sint soluta atque quibusdam sed
+          inventore reprehenderit modi omnis quia fuga iusto, voluptatem eius
+          amet. Ex illo iure molestias? Esse enim obcaecati non odio optio
+          voluptatum quod fugiat ut, debitis consequatur odit iure possimus
+          animi iste corporis at laboriosam quis praesentium culpa quam nulla
+          iusto!
+        </p>
+        <div class="rating"> - ROBERT SMILE</div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container container--center">
+        <h2 class="header header--alpha">Unlock full Power</h2>
+        <p class="text text--alpha">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
+          deleniti assumenda mollitia repellat minus unde nesciunt repudiandae
+          reiciendis ullam fugit quos quisquam eligendi omnis esse, sunt
+          consequuntur ab quibusdam soluta.
+        </p>
+      </div>
+
+      <ul class="container container--columns container--plan">
+        <li class="plan">
+          <a href="" class="link">
+            <header class="plan__container plan__container--basic">
+              <h3 class="plan__name">Basic</h3>
+              <span class="plan__price plan__price--basic">$06</span>
+            </header>
+
+            <ul class="plan__container">
+              <li class="plan__item">One User</li>
+              <li class="plan__item">1000 ui elements</li>
+              <li class="plan__item">Webmail Support</li>
+              <li class="plan__item">100GB Cloud Storage</li>
+              <button class="toggle toggle--plan">Get Now</button>
+            </ul>
+          </a>
+        </li>
+
+        <li class="plan plan--middle">
+          <a href="" class="link">
+            <header class="plan__container plan__container--team">
+              <h3 class="plan__name">Team</h3>
+              <span class="plan__price plan__price--team">$20</span>
+            </header>
+
+            <ul class="plan__container">
+              <li class="plan__item">One User</li>
+              <li class="plan__item">1000 ui elements</li>
+              <li class="plan__item">Webmail Support</li>
+              <li class="plan__item">100GB Cloud Storage</li>
+              <li class="plan__item">Unlimited Users Limit</li>
+              <button class="toggle toggle--plan">Get Now</button>
+            </ul>
+          </a>
+        </li>
+
+        <li class="plan">
+          <a href="" class="link">
+            <header class="plan__container plan__container--business">
+              <h3 class="plan__name">Business</h3>
+              <span class="plan__price plan__price--business">$50</span>
+            </header>
+
+            <ul class="plan__container">
+              <li class="plan__item">One User</li>
+              <li class="plan__item">1000 ui elements</li>
+              <li class="plan__item">Webmail Support</li>
+              <li class="plan__item">100GB Cloud Storage</li>
+              <button class="toggle toggle--plan">Get Now</button>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrapper wrapper--stores">
+      <div class="container container--stores">
+        <h2 class="header header--big">
+          Get start from now and increase productivity
+        </h2>
+      </div>
+      <div class="container container--stores">
         <a href="" class="link">
-          <div class="plan__container plan__container--team">
-            <span class="plan__name">Team</span>
-            <span class="plan__price plan__price--team">$20</span>
-          </div>
-
-          <ul class="plan__container">
-            <li class="plan__item">One User</li>
-            <li class="plan__item">1000 ui elements</li>
-            <li class="plan__item">Webmail Support</li>
-            <li class="plan__item">100GB Cloud Storage</li>
-            <li class="plan__item">Unlimited Users Limit</li>
-            <button class="toggle toggle--plan">Get Now</button>
-          </ul>
+          <img
+            src="./images/app.svg"
+            alt="Apple-Store"
+            class="picture picture--app"
+          />
         </a>
-      </li>
-
-      <li class="plan">
         <a href="" class="link">
-          <div class="plan__container plan__container--business">
-            <span class="plan__name">Business</span>
-            <span class="plan__price plan__price--business">$50</span>
-          </div>
-
-          <ul class="plan__container">
-            <li class="plan__item">One User</li>
-            <li class="plan__item">1000 ui elements</li>
-            <li class="plan__item">Webmail Support</li>
-            <li class="plan__item">100GB Cloud Storage</li>
-            <button class="toggle toggle--plan">Get Now</button>
-
-          </ul>
+          <img
+            src="./images/play.svg"
+            alt="Google-Play"
+            class="picture picture--app"
+          />
         </a>
-      </li>
-    </ul>
-  </section>
+      </div>
+    </section>
 
-  <section class="wrapper wrapper--stores">
-    <div class="container container--stores">
-      <h2 class="header header--big">Get start from now and increase productivity</h2>
-    </div>
-    <div class="container container--stores">
-      <a href="" class="link">
-        <img src="./images/app.svg" alt="Apple-Store" class="picture picture--app">
-      </a>
-      <a href="" class="link">
-        <img src="./images/play.svg" alt="Google-Play" class="picture picture--app">
-      </a>
-    </div>
-  </section>
+    <section class="wrapper wrapper--pre-footer">
+      <ul class="container container--cells">
+        <li class="cell">
+          <h3 class="logo">
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              class="logo__item logo__item--pre-footer"
+            />
+          </h3>
+          <p class="cell__text cell__text--bigger">
+            Firmament morning sixth subdue darkness creeping gathered divide
+          </p>
+          <figure class="cell__container">
+            <a href="" class="link cell__logo">
+              <img
+                src="./images/icons/facebook-f.svg"
+                alt="facebook-logo"
+                class="cell__logo-item"
+              />
+            </a>
+            <a href="" class="link cell__logo">
+              <img
+                src="./images/icons/x-twitter.svg"
+                alt="x-logo"
+                class="cell__logo-item"
+              />
+            </a>
+            <a href="" class="link cell__logo">
+              <img
+                src="./images/icons/instagram.svg"
+                alt="instagram-logo"
+                class="cell__logo-item"
+              />
+            </a>
+          </figure>
+        </li>
 
-  <section class="wrapper wrapper--pre-footer">
+        <li class="cell">
+          <h4 class="header header--pre-footer">Services</h4>
+          <ul class="cell__container">
+            <li class="cell__item">
+              <a href="" class="link cell__text">Team management</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Collaboration</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Todo</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Events</a>
+            </li>
+          </ul>
+        </li>
 
-    <ul class="container container--cells">
-      
-      <li class="cell">
-        <h1 class="logo"><img src="./images/logo.png" alt="logo" class="logo__item logo__item--pre-footer"></h1>
-        <p class="cell__text cell__text--bigger">Firmament morning sixth subdue darkness creeping gathered divide</p>
-        <figure class="cell__container">
-          <a href="" class="link cell__logo">
-            <img src="./images/icons/facebook-f.svg" alt="facebook-logo" class="cell__logo-item">
-          </a>
-          <a href="" class="link cell__logo">
-            <img src="./images/icons/x-twitter.svg" alt="x-logo" class="cell__logo-item">
-          </a>
-          <a href="" class="link cell__logo">
-            <img src="./images/icons/instagram.svg" alt="instagram-logo" class="cell__logo-item">
-          </a>
-        </figure>
-      </li>
+        <li class="cell">
+          <h4 class="header header--pre-footer">Useful Links</h4>
+          <ul class="cell__container">
+            <li class="cell__item">
+              <a href="" class="link cell__text">Pricing</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Features</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Blog</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Contact</a>
+            </li>
+          </ul>
+        </li>
 
-      <li class="cell">
-        <h4 class="header header--pre-footer">Services</h4>
-        <ul class="cell__container">
-          <li class="cell__item"><a href="" class="link cell__text">Team management</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Collaboration</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Todo</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Events</a></li>
-        </ul>
-      </li>
+        <li class="cell">
+          <h4 class="header header--pre-footer">Downloads</h4>
+          <ul class="cell__container">
+            <li class="cell__item">
+              <a href="" class="link cell__text">Download from Apple Store</a>
+            </li>
+            <li class="cell__item">
+              <a href="" class="link cell__text">Download from Play Store</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
-      <li class="cell">
-        <h4 class="header header--pre-footer">Useful Links</h4>
-        <ul class="cell__container">
-          <li class="cell__item"><a href="" class="link cell__text">Pricing</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Features</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Blog</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Contact</a></li>
-        </ul>
-      </li>
-
-      <li class="cell">
-        <h4 class="header header--pre-footer">Downloads</h4>
-        <ul class="cell__container">
-          <li class="cell__item"><a href="" class="link cell__text">Download from Apple Store</a></li>
-          <li class="cell__item"><a href="" class="link cell__text">Download from Play Store</a></li>
-        </ul>
-      </li>
-
-    </ul>
-
-  </section>
-
-  <footer class="wrapper wrapper--footer">
-      <span class="copyright">Copyright &copy 2023 All rights reserved | This template is made with ❤️ by <a href="https://colorlib.com/wp/licence/" class="link link--copyright">Colorlib</a>.<br>Coded by <em>Wojciech Jasiak</em>
+    <footer class="wrapper wrapper--footer">
+      <span class="copyright">
+        Copyright &copy 2023 All rights reserved | This template is made with ❤️ by 
+        <a href="https://colorlib.com/wp/licence/" class="link link--copyright">
+          Colorlib
+        </a>.
+        <br />Coded by <em class="My-name">Wojciech Jasiak</em>
       </span>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

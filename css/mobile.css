@@ -29,23 +29,16 @@
 }
 
 .navbar__item:hover {
-  background-color: #4C4C4C;
-}
-
-.navbar__sub-container {
-  margin: 10px 20px;
+  background-color: var(--black-c);
 }
 
 .navbar__sub-item:first-child {
   margin-top: 10px;
 }
-.navbar__sub-item:last-child {
-  margin-bottom: -10px;
-}
 
 .navbar__sub-item:hover {
   border-radius: 40px;
-  background-color: #9a9a9a;
+  background-color: var(--black-e);
 }
 
 /* || */
@@ -71,7 +64,6 @@
 }
 .container--plan {
   padding-bottom: 0;
-  background-color: #F9F9F9;
 }
 .container--stores {
   padding-top: 0;
@@ -86,8 +78,7 @@
 .plan {
   max-width: 450px;
   margin: 0 auto;
-  border-bottom: 40px solid #F9F9F9;
-  background-color: white;
+  margin-bottom: 60px;
 }
 
 .plan__container {
@@ -99,15 +90,6 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-}
-.plan__container--basic {
-  background-color: #E9F4FE;
-}
-.plan__container--team {
-  background-color: #FEF4EE;
-}
-.plan__container--business {
-  background-color: #E8FCF1;
 }
 
 .plan__item {
@@ -132,7 +114,7 @@
   margin-right: 5px;
   border-radius: 50%;
   padding: 10px;
-  background-color: #4d4d4d;
+  background-color: var(--black-c);
 }
 
 .cell__logo-item {

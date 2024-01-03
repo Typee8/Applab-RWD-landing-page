@@ -1,9 +1,8 @@
 .menu {
   display: grid;
   align-items: center;
-  grid-template-areas:
-  "A B C";
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
   padding: 20px 30px;
   background-color: transparent;
   transition: 0.3s ease;
@@ -34,7 +33,7 @@
   justify-self: right;
   margin-right: 20px;
   padding: 15px 20px;
-  background-color: #42B3FA;
+  background-color: var(--blue-c);
 }
 
 .navbar__item {
@@ -64,7 +63,7 @@
   left: 0;
   margin: 0;
   min-width: 200px;
-  background-color: white;
+  background-color: var(--white-a);
   border-radius: 10px;
   z-index: 1;
   transition: 0.5s ease;
@@ -83,14 +82,14 @@
 }
 
 .navbar__sub-item:hover {
-  background-color: #e6e5e5;
+  background-color: var(--white-b);
 }
 .navbar__text {
   text-wrap: nowrap;
 }
 
 .navbar__text--sub {
-  color: black;
+  color: var(--black-a);
 }
 
 .wrapper {
@@ -112,6 +111,7 @@
     min-width: 50vw;
   }
 }
+
 .wrapper--footer {
   padding: 30px 25px;
 }
@@ -151,8 +151,7 @@
 }
 
 .container--cells {
-  grid-template-areas:
-    "A A A B C D";
+  grid-template-areas: "Applab Applab Applab Services Useful-links Downloads";
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
 }
