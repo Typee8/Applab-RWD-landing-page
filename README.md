@@ -143,9 +143,9 @@ I chose to write JS code for this functionality because it **gets rid of the bug
 ---
 
 ## Gained knowledge:
-:white_check_mark: Write clean and well-thought-out HTML and CSS (Good planing pays off).
-:white_check_mark: BEM methodology helps in creating reusable styles.
-:white_check_mark: Smart use of `display: flex` & `display: grid`.
+:white_check_mark: Write clean and well-thought-out HTML and CSS (Good planing pays off).<br>
+:white_check_mark: BEM methodology helps in creating reusable styles.<br>
+:white_check_mark: Smart use of `display: flex` & `display: grid`.<br>
 :white_check_mark: Scale site elements to fit on different devices: mobile, tablet, desktop.
 :white_check_mark: Separation of Concerns: create clean folder structure for easy code managing.
 :white_check_mark: Create icons using external editor - [Font Awesome](https://fontawesome.com/).
