@@ -98,16 +98,4 @@ function dropdown () {
   })
 }
 
-/* Jeżeli kliknę w navbar__item to:
-    1. Otworzy się sub-menu DONE
-    2. Zmieni się kolor navbar__item na: #4C4C4C; DONE
-    3. Jeżeli navbar__item został kliknięty to kolejne kliknięcie zamyka navbar DONE
-    4. Po kliknięciu navbar__item zamyka inny sub-container DONE
-    5. Po kliknięciu navbar__item zostaje odznaczony DONE
-    6. Przy desktop, jeżeli kliknę na navbar__item to zostanie on podświetlony w wyglądzie tabletowym i smartphonowym. - zamknąłem navbar
-    7. kliknięcie w .navbar__item uruchamia <a>
-
-    Sprawdzić czy kliknięcie w navbar__text liczy się jako kliknięcie w navbar__item LICZY SIE - DONE
-*/
-
 dropdown ();
