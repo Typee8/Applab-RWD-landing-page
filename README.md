@@ -1,5 +1,5 @@
-[![Applab landing page](./README-assets/Applab.svg)](https://typee8.github.io/task-html-and-css-rwd/)
-# [Applab RWD landing page](https://typee8.github.io/task-html-and-css-rwd/)
+[![Applab landing page](./README-assets/Applab.svg)](https://typee8.github.io/Applab-RWD-landing-page/)
+# [Applab RWD landing page](https://typee8.github.io/Applab-RWD-landing-page/)
 My first **fully responsive** website! It's the conclusion of **3rd chapter** (there's **20**) of [devmentor.pl](https://devmentor.pl/mentoring-javascript) mentoring program which focuses on HTML, CSS and RWD. It's been written in **HTML** and **CSS** with a little help of **Javascript** (for navbar improvement). Website's design is based on [Colorlib template](https://colorlib.com/wp/template/applab/).
 
 ---
