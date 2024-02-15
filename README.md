@@ -6,9 +6,9 @@ My first **fully responsive** website! It's the conclusion of **3rd chapter** (t
 
 ## Content:
 #### 1) [Challenges:](#plan-html-and-bem-class-structure-in-figma)
- [1. Plan HTML and BEM class structure (in Figma).](#plan-html-and-bem-class-structure-in-figma)
- [2. Universal BEM naming.](#universal-bem-naming)
- [3. Separation of Concerns (preparing project's directory).](#separation-of-concerns)
+ [1. Plan HTML and BEM class structure (in Figma).](#plan-html-and-bem-class-structure-in-figma)<br>
+ [2. Universal BEM naming.](#universal-bem-naming)<br>
+ [3. Separation of Concerns (preparing project's directory).](#separation-of-concerns)<br>
  [4. Navbar dropdown CSS bug. (why I needed to use JS)](#navbar-dropdown-css-bug)
 
 #### 2) [Gained knowledge](#gained-knowledge)
